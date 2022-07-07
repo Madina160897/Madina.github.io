@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    justify-content: flex-end;
+}
+
+.flex{
+    display: flex;
+}
+
+.fd-c{
+    flex-direction: column;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+.side-padding{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.padding{
+    padding: 0 10% 0 10%;
+}
+
+.side-padding2{
+    padding-left: 10%;
+    padding-right: 18%;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.mt-150{
+    margin-top: 150px;
+}
+
+.WBC{
+    width: 236px;
+    text-align: right;
+}
+
+.header-text{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.info-me{
+    font-size: 18px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.DR{
+    width: 210px;
+    height: 50px;
+    background-color: #ff6464;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.my-photo{
+    width: 243px;
+    height: 243px;
+    border-radius: 100%;
+    box-shadow: -5px 15px 0 1px moccasin;
+}
+
+.block{
+    height: 425px;
+    background-color: #EDF7FA;
+}
+
+.recent-posts{
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.view{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00a8cc;
+    padding-right: 10%;
+}
+
+.history{
+    width: 45%;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.date1{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #21243D;
+    align-items: center;
+}
+
+.line1{
+    height: 21px;
+    border: 1px solid #000;
+}
+
+.info-m{
+    font-size: 18px;
+    font-weight: 400;
+    color: #21243D;
+    text-align: justify;
+    margin-top: 10px;
+}
