@@ -24,6 +24,14 @@ header{
     justify-content: space-around;
 }
 
+.jc-c{
+    justify-content: center;
+}
+
+.ai-c{
+    align-items: center;
+}
+
 .side-padding{
     padding-left: 10%;
     padding-right: 10%;
@@ -54,6 +62,10 @@ header{
     margin-top: 150px;
 }
 
+.ml-20{
+    margin-left: 20px;
+}
+
 .WBC{
     width: 236px;
     text-align: right;
@@ -71,6 +83,7 @@ h1{
     font-size: 44px;
     font-weight: 700;
     color: #21243D;
+    margin-top: -3px;
 }
 
 h2{
@@ -104,7 +117,7 @@ h2{
 }
 
 .block{
-    height: 425px;
+    height: 530px;
     background-color: #EDF7FA;
 }
 
@@ -119,17 +132,23 @@ h2{
     font-weight: 400;
     color: #00a8cc;
     padding-right: 10%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.view:hover{
+    text-decoration: underline;
 }
 
 .history{
-    width: 45%;
-    height: 300px;
+    width: 480px;
+    height: 400px;
     background-color: #ffffff;
     border-radius: 4px;
 }
 
 .date1{
-    width: 50%;
+    width: 380px;
     font-size: 20px;
     font-weight: 400;
     color: #21243D;
@@ -147,4 +166,87 @@ h2{
     color: #21243D;
     text-align: justify;
     margin-top: 10px;
+}
+
+.img{
+    width: 245px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+.proekt{
+    width: 977px;
+    height: 200px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-left: 137px;
+}
+
+.side-info{
+    height: 180px;
+}
+
+.end-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+@media (max-width: 768px){
+.two-part {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    align-items: center;
+    margin-top: 99px;
+}
+
+.info-me {
+    margin-bottom: 42px;
+}
+
+h1 {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.side-padding {
+    padding: 25px 30px;
+}
+
+.recent-posts {
+    font-weight: 700;
+    margin-bottom: -25px;
+}
+
+.history {
+    min-width: 280px;
+    margin-right: 31px;
+}
+
+.block {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.proekt {
+    width: 355px;
+    height: 225px;
+    margin: 47px 30px 0 31px;
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block-icon {
+    margin-top: 60px;
+}
+
+.end-text {
+    margin-bottom: 67px;
+}
 }
