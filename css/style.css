@@ -117,7 +117,6 @@ h2{
     width: 243px;
     height: 243px;
     border-radius: 100%;
-    box-shadow: -5px 15px 0 1px moccasin;
 }
 
 .block{
@@ -145,7 +144,7 @@ h2{
 }
 
 .history{
-    width: 45%;
+    width: 480px;
     height: 400px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -249,7 +248,7 @@ h2{
     }
 
     .info-m{
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 20px;
     }
 
@@ -265,8 +264,8 @@ h2{
     }
 
     .history {
-        min-width: 95%;
-        height: 48vh;
+        min-width: 292px;
+        height: 340px;
         margin-right: 31px;
     }
 
@@ -285,7 +284,7 @@ h2{
         flex-direction: column;
         font-size: 16px;
         margin-top: 20px;
-        height: 310px;
+        height: 400px;
     }
 
     .date1{
