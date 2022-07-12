@@ -195,7 +195,7 @@ h2{
     color: #21243D;
 }
 
-@media (max-width: 412px){
+@media (max-width: 768px){
     .side-padding {
         padding: 0 0 0 20%
     }
