@@ -195,19 +195,20 @@ h2{
     color: #21243D;
 }
 
-@media (max-width: 768px){
+@media (max-width: 412px){
     .side-padding {
         padding: 0 0 0 20%
     }
 
-    header{
-        margin-top: -70px;
+    .WBC{
+        display: none;
     }
 
     main{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 100px;
     }
 
     .two-part {
@@ -228,10 +229,28 @@ h2{
     h1 {
         width: 100%;
         margin-top: 40px;
+        text-align: center;
     }
 
-    h1 {
-        text-align: center;
+    .view {
+        display: none;
+    }
+
+    h2 {
+       font-size: 16px; 
+    }
+
+    .line1{
+        display: none;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .info-m{
+        font-size: 16px;
+        margin-top: 20px;
     }
 
     form{
@@ -242,15 +261,18 @@ h2{
     .recent-posts {
         font-weight: 700;
         margin-bottom: -25px;
+        margin-left: -40px;
     }
 
     .history {
-        min-width: 87%;
+        min-width: 95%;
+        height: 48vh;
         margin-right: 31px;
     }
 
     .img{
         margin-right: 10px;
+        margin-top: 20px;
     }
 
     .block {
@@ -259,14 +281,29 @@ h2{
     }
 
     .proekt {
-        width: 600px;
-        height: 225px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        margin-top: 20px;
+        height: 310px;
+    }
+
+    .date1{
+        font-size: 14px;
+        width: 80%;
     }
 
     .title {
-        margin: 10px 0;
+        margin: 10px 0 0 -20px;
         font-size: 20px;
         font-weight: 700;
+    }
+
+    .text{
+        margin: 10px 0 30px -20px;
+        font-size: 16px;
+        font-weight: 400;
+
     }
 
     .block-icon {
